@@ -1,3 +1,30 @@
+/* serif */
+@font-face {
+  font-family: "Artifika";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Artifika-Regular.eot");
+  src: url("./fonts/Artifika-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Artifika-Regular.woff2") format("woff2"),
+    url("./fonts/Artifika-Regular.woff") format("woff"),
+    url("./fonts/Artifika-Regular.ttf") format("truetype");
+}
+
+/* sans-serif */
+@font-face {
+  font-family: "Merge One";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/MergeOne-Regular.eot");
+  src: url("./fonts/MergeOne-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/MergeOne-Regular.woff2") format("woff2"),
+    url("./fonts/MergeOne-Regular.woff") format("woff"),
+    url("./fonts/MergeOne-Regular.ttf") format("truetype");
+}
+
+/* sans-serif */
 @font-face {
   font-family: "Cabinet Grotesk";
   font-style: normal;

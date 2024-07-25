@@ -1,0 +1,16 @@
+.page__404 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__404_header {
+  color: red;
+  font-family: "Merge One", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}

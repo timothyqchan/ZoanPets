@@ -1,0 +1,43 @@
+.goalsModal__grid-container {
+  width: 100%;
+  height: 65vh;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.goalsModal__grid-section {
+  background: #fff;
+  border-radius: 40px;
+  padding: 50px;
+  opacity: 0;
+  animation: slideDownSection 0.3s ease-in-out 1 forwards;
+}
+
+.goalsModal__grid-section:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.goalsModal__grid-section:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.goalsModal__grid-section:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.goalsModal__goals {
+  grid-row: span 3;
+}
+
+.goalsModal__streak {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.goalsModal__badges {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

@@ -1,0 +1,133 @@
+.modalFormRegister__button_submit {
+  margin: 30px 0 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(183, 183, 183, 1) 100%
+  );
+}
+
+.modalFormRegister__top-buttons {
+  margin: 50px 40px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.modalFormRegister__lookalikebutton {
+  background: rgb(244, 255, 178);
+  background: linear-gradient(
+    0deg,
+    rgba(244, 255, 178, 1) 0%,
+    rgba(255, 213, 38, 1) 100%
+  );
+}
+
+.modalFormRegister__button-alt {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(183, 183, 183, 1) 100%
+  );
+}
+
+.modalFormRegister__info {
+  padding-top: 55px;
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Merge One", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.modalFormRegister__label {
+  padding-bottom: 20px;
+}
+
+.modalFormRegister__password-input {
+  position: relative;
+  width: 100%;
+}
+
+.modalFormRegister__input {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  width: 96%;
+  font-family: "Merge One", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 1.2; */
+  line-height: 50px;
+  border-radius: 50px;
+  border: none;
+}
+
+.show-password {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: url("../../../images/private-eye.png");
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+.hide-password {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: url("../../../images/eye.png");
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+
+@media (max-width: 850px) {
+  .modalFormRegister__info {
+    width: 280px;
+  }
+}
+
+@media (max-width: 450px) {
+  .modalFormRegister__top-buttons {
+    flex-direction: column;
+  }
+  .modalFormRegister__info {
+    width: 150px;
+    padding-top: 30px;
+  }
+  .modalFormRegister__label {
+    display: none;
+  }
+  .modalFormRegister__input {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  #passwordPrivateIcon {
+    top: 0.4rem;
+    right: 0;
+  }
+  #passwordPrivateIcon2 {
+    display: none;
+  }
+}
+
+@media (max-width: 280px) {
+  .modalFormRegister__info {
+    width: 150px;
+  }
+}

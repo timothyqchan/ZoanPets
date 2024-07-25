@@ -1,0 +1,27 @@
+.modal__button {
+  width: 250px;
+  height: 75px;
+  border-radius: 50px;
+  font-family: "Merge One", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  border: 2px black solid;
+  transition: all 0.3s ease;
+}
+.modal__button:hover {
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.modal__button:active {
+  box-shadow: inset -4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  .modal__button {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+  }
+}
